@@ -1,0 +1,295 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  /* font-family: "Poppins", sans-serif; */
+  background-color: #181719;
+  color: white;
+
+  margin: 42px auto 0 auto;
+  padding: 0 80px;
+  max-width: 1500px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+nav > .hamburger-icon {
+  display: none;
+}
+
+nav > .logo {
+  border: 1px solid white;
+  padding: 8px;
+}
+
+nav > .logo > span {
+  font-family: "Crimson Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0;
+}
+
+.nav-items {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-item {
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 8px;
+}
+
+.selected {
+  font-weight: 700;
+  border-bottom: 2px solid white;
+}
+
+main {
+  display: flex;
+  margin-top: 170px;
+  justify-content: space-between;
+}
+
+.hero-content {
+  margin-top: 130px;
+}
+
+.hero-content > h1 {
+  font-family: "Lora";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.hero-content > p {
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  margin-top: 40px;
+  margin-bottom: 48px;
+  width: 410px;
+}
+
+.hero-content > button {
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  color: #fff;
+  background-color: #181719;
+  border: none;
+}
+
+.hero-content > button svg {
+  position: relative;
+  top: 5px;
+}
+
+.hero-primary > img {
+  width: 737px;
+  height: 555px;
+}
+
+.hero-info-card {
+  background-color: #181719;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 32px;
+
+  width: 410px;
+  height: 189px;
+
+  box-shadow: 0px 5px 5px black;
+  position: relative;
+  bottom: 150px;
+  left: 150px;
+}
+
+.profile {
+  display: flex;
+  height: 50px;
+}
+
+.profile > img {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.details > h6 {
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.details > p {
+  color: #828282;
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.info {
+  color: #fff;
+  font-family: "Lora";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 287px;
+  margin-top: 25px;
+}
+
+footer {
+  color: #a9a9a9;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  padding-bottom: 20px;
+}
+
+@media (max-width: 390px) {
+  body {
+    margin: 20px auto 0 auto;
+    padding: 0 12px;
+    /* max-width: 1500px; */
+    position: relative;
+  }
+  .nav-items {
+    display: none;
+    /* background-color: green; */
+  }
+
+  main {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .hero-content {
+    margin-top: 0;
+  }
+
+  .hero-content > h1 {
+    /* color: #FFF; */
+    font-family: "Lora";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .hero-content > p {
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 250px;
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .hero-content > button {
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 40px;
+  }
+
+  .hero-content > button svg {
+    position: relative;
+    top: 8px;
+  }
+
+  .hero-primary {
+    width: 100vw;
+  }
+
+  .hero-primary > img {
+    width: 94%;
+    height: auto;
+  }
+
+  .hero-info-card {
+    /* border: 5px dotted red; */
+    width: 250px;
+    height: 138px;
+    position: relative;
+    bottom: 90px;
+    left: 50px;
+    padding: 16px 24px;
+  }
+
+  .profile {
+    display: flex;
+    height: 36px;
+  }
+
+  .profile > img {
+    width: 36px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+
+  .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .details > h6 {
+    font-size: 12px;
+  }
+
+  .details > p {
+    font-size: 10px;
+  }
+
+  .info {
+    font-size: 18px;
+  }
+}
