@@ -1,13 +1,18 @@
 const hamEl = document.querySelector(".hamburger");
 const closeEl = document.querySelector(".close");
-const navItemsEl = document.querySelector(".nav-items");
+const navEl = document.querySelector(".full-page-menu");
 
 closeEl.addEventListener("click", (e) => {
-  closeEl.classList.toggle("active");
-  navItemsEl.classList.toggle("fullScreenMenu");
+  toggleVisibility();
 });
 
 hamEl.addEventListener("click", (e) => {
-  navItemsEl.classList.toggle("fullScreenMenu");
-  closeEl.classList.toggle("active");
+  toggleVisibility();
 });
+
+const toggleVisibility = () => {
+  closeEl.classList.toggle("show");
+  navEl.classList.toggle("active");
+};
+
+// TODO: Event capture & add the selected class to nav-item through JS

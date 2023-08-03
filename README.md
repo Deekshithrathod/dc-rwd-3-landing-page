@@ -36,9 +36,9 @@
 
 ## Overview
 
-|                 Desktop                 |               Mobile                |
-| :-------------------------------------: | :---------------------------------: |
-| ![Project On Desktop](view-desktop.png) | ![Demo On Desktop](view-mobile.png) |
+|                    Desktop                     |                   Mobile                   |
+| :--------------------------------------------: | :----------------------------------------: |
+| ![Project On Desktop](public/demo-desktop.png) | ![Demo On Desktop](public/demo-mobile.png) |
 
 - Where can I see your demo? [here](https://devchallenges-rwd-3.onrender.com)
 - What have you learned/improved? Responsive menu
@@ -55,9 +55,9 @@
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb) was to build an application to complete the given user stories.
 
-|               Home               |               Menu                |
-| :------------------------------: | :-------------------------------: |
-| ![Landing Page](view-mobile.png) | ![Demo On Desktop](view-menu.png) |
+|                  Home                   |                   Menu                   |
+| :-------------------------------------: | :--------------------------------------: |
+| ![Landing Page](public/demo-mobile.png) | ![Demo On Desktop](public/demo-menu.png) |
 
 - Where can I see your demo? [here](https://devchallenges-rwd-3.onrender.com)
 - What have you learned/improved? Responsive menu
